@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>March 2026 Snapshot -- Signals & Shifts</title>
+    <meta name="description" content="March 2026 cultural shift snapshot: 20 shifts across music, design, food, fashion and tech.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script defer data-domain="signalsnshifts.com" src="https://plausible.io/js/script.js"></script>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #FAFAF8;
+            --bg-card: #FFFFFF;
+            --bg-hero: #F5F4F0;
+            --border: #E5E4E0;
+            --border-light: #EDEDEB;
+            --text-primary: #1A1A1A;
+            --text-secondary: #555555;
+            --text-muted: #999999;
+            --accent: #C8102E;
+            --music: #7C3AED;
+            --design: #D97706;
+            --food: #059669;
+            --fashion: #DB2777;
+            --tech: #2563EB;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+
+        .header {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-brand { display: flex; align-items: center; gap: 12px; }
+
+        .header-logo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .header-logo span { color: var(--accent); }
+
+        .header-edition {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+            padding: 3px 10px;
+            border: 1px solid var(--border);
+            border-radius: 3px;
+        }
+
+        .header-links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .header-links a {
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            color: var(--text-secondary);
+            text-decoration: none;
+        }
+
+        .header-links a:hover { color: var(--text-primary); }
+
+        .page-hero {
+            background: var(--bg-hero);
+            border-bottom: 1px solid var(--border);
+            padding: 64px 0 56px;
+        }
+
+        .page-hero h1 {
+            font-family: 'Instrument Serif', serif;
+            font-size: clamp(32px, 4vw, 48px);
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+
+        .page-hero p {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            line-height: 1.65;
+            color: var(--text-secondary);
+            max-width: 640px;
+            margin-bottom: 24px;
+        }
+
+        .hero-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+            margin-bottom: 16px;
+        }
+
+        .snapshot-stats {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+
+        .snapshot-stat {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            padding: 4px 10px;
+            border-radius: 3px;
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-light);
+        }
+
+        .snapshot-stat strong { font-weight: 700; color: var(--text-primary); }
+
+        /* Changes section */
+        .changes-section {
+            padding: 48px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .changes-title {
+            font-family: 'Instrument Serif', serif;
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+
+        .changes-subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+        }
+
+        .changes-note {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            padding: 24px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+
+        .changes-note strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* Shifts table */
+        .shifts-section { padding: 48px 0; }
+
+        .shifts-section h2 {
+            font-family: 'Instrument Serif', serif;
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+
+        .shifts-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .shifts-table th {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-muted);
+            text-align: left;
+            padding: 12px 16px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .shifts-table td {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border-light);
+            color: var(--text-secondary);
+        }
+
+        .shifts-table tr:hover td {
+            background: var(--bg-card);
+        }
+
+        .shifts-table .shift-name {
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .domain-dot {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 2px;
+            margin-right: 6px;
+        }
+
+        .domain-dot.music { background: var(--music); }
+        .domain-dot.design { background: var(--design); }
+        .domain-dot.food { background: var(--food); }
+        .domain-dot.fashion { background: var(--fashion); }
+        .domain-dot.tech { background: var(--tech); }
+
+        .stage-badge {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 2px 8px;
+            border-radius: 3px;
+        }
+
+        .stage-badge.emerging { background: #EFF6FF; color: #2563EB; }
+        .stage-badge.accelerating { background: #ECFDF5; color: #059669; }
+        .stage-badge.mainstream { background: #FFF8EB; color: #D97706; }
+        .stage-badge.peaking { background: #FDF2F8; color: #DB2777; }
+        .stage-badge.declining { background: #FEF2F2; color: #DC2626; }
+
+        .footer {
+            padding: 24px 0;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .footer-left {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .footer-left a { color: var(--text-muted); text-decoration: none; }
+        .footer-left a:hover { color: var(--text-primary); }
+
+        .footer-right { display: flex; gap: 20px; }
+        .footer-right a {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+            text-decoration: none;
+        }
+        .footer-right a:hover { color: var(--text-primary); }
+
+        @media (max-width: 700px) {
+            .shifts-table { font-size: 13px; }
+            .shifts-table th, .shifts-table td { padding: 10px 8px; }
+            .page-hero { padding: 36px 0 32px; }
+            .header-links { display: none; }
+            .footer-inner { flex-direction: column; text-align: center; }
+            .snapshot-stats { flex-direction: column; gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-brand">
+                    <a href="/" class="header-logo">Signals <span>&</span> Shifts</a>
+                    <span class="header-edition">Archive</span>
+                </div>
+                <div class="header-links">
+                    <a href="/">Current</a>
+                    <a href="./">All archives</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <div class="hero-label">March 2026 Snapshot</div>
+            <h1>The taste vs. volume split deepens</h1>
+            <p>AI floods music catalogues and design tools while consumers push back on processed food and constant connectivity. Fashion's dominant aesthetics plateau. The creator economy cleaves in two.</p>
+            <div class="snapshot-stats">
+                <span class="snapshot-stat"><strong>20</strong> shifts</span>
+                <span class="snapshot-stat"><strong>5</strong> domains</span>
+                <span class="snapshot-stat"><strong>4</strong> emerging</span>
+                <span class="snapshot-stat"><strong>7</strong> accelerating</span>
+                <span class="snapshot-stat"><strong>4</strong> mainstream</span>
+                <span class="snapshot-stat"><strong>4</strong> peaking</span>
+                <span class="snapshot-stat"><strong>1</strong> declining</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="changes-section">
+        <div class="container">
+            <h2 class="changes-title">What changed</h2>
+            <p class="changes-subtitle">Shifts that moved lifecycle stage since the previous month</p>
+            <div class="changes-note">
+                <strong>March 2026 is the inaugural snapshot.</strong> This is the baseline month -- all 20 shifts are being tracked for the first time. From April 2026 onwards, this section will highlight which shifts moved forward (or backward) on their lifecycle curve, making it easy to see what's accelerating and what's plateauing at a glance.
+            </div>
+        </div>
+    </section>
+
+    <section class="shifts-section">
+        <div class="container">
+            <h2>All shifts -- March 2026</h2>
+            <table class="shifts-table">
+                <thead>
+                    <tr>
+                        <th>Domain</th>
+                        <th>Shift</th>
+                        <th>Stage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="domain-dot music"></span>Music</td>
+                        <td class="shift-name">AI-generated music flooding the catalogue</td>
+                        <td><span class="stage-badge accelerating">Accelerating</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot music"></span>Music</td>
+                        <td class="shift-name">Vinyl's long resurgence refuses to peak</td>
+                        <td><span class="stage-badge mainstream">Mainstream</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot music"></span>Music</td>
+                        <td class="shift-name">The album cycle is dead</td>
+                        <td><span class="stage-badge accelerating">Accelerating</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot music"></span>Music</td>
+                        <td class="shift-name">Hyperpop bleeding into the mainstream</td>
+                        <td><span class="stage-badge peaking">Peaking</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot design"></span>Design</td>
+                        <td class="shift-name">AI tools are democratising design</td>
+                        <td><span class="stage-badge accelerating">Accelerating</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot design"></span>Design</td>
+                        <td class="shift-name">Web brutalism has peaked</td>
+                        <td><span class="stage-badge peaking">Peaking</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot design"></span>Design</td>
+                        <td class="shift-name">Skeuomorphism is making a quiet comeback</td>
+                        <td><span class="stage-badge emerging">Emerging</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot design"></span>Design</td>
+                        <td class="shift-name">Sustainable materials reshaping product design</td>
+                        <td><span class="stage-badge accelerating">Accelerating</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot food"></span>Food</td>
+                        <td class="shift-name">The ultra-processed food backlash goes mainstream</td>
+                        <td><span class="stage-badge accelerating">Accelerating</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot food"></span>Food</td>
+                        <td class="shift-name">Japanese food culture has gone fully global</td>
+                        <td><span class="stage-badge mainstream">Mainstream</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot food"></span>Food</td>
+                        <td class="shift-name">Ghost kitchens are fading</td>
+                        <td><span class="stage-badge declining">Declining</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot food"></span>Food</td>
+                        <td class="shift-name">Natural wine has hit saturation</td>
+                        <td><span class="stage-badge peaking">Peaking</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot fashion"></span>Fashion</td>
+                        <td class="shift-name">Quiet luxury is plateauing</td>
+                        <td><span class="stage-badge peaking">Peaking</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot fashion"></span>Fashion</td>
+                        <td class="shift-name">Gorpcore has peaked</td>
+                        <td><span class="stage-badge peaking">Peaking</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot fashion"></span>Fashion</td>
+                        <td class="shift-name">Indie brands are eating luxury's lunch</td>
+                        <td><span class="stage-badge accelerating">Accelerating</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot fashion"></span>Fashion</td>
+                        <td class="shift-name">Resale and rental are normalising</td>
+                        <td><span class="stage-badge mainstream">Mainstream</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot tech"></span>Tech</td>
+                        <td class="shift-name">AI agents are replacing apps</td>
+                        <td><span class="stage-badge accelerating">Accelerating</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot tech"></span>Tech</td>
+                        <td class="shift-name">Spatial computing is stalling</td>
+                        <td><span class="stage-badge emerging">Emerging</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot tech"></span>Tech</td>
+                        <td class="shift-name">Privacy is becoming a premium feature</td>
+                        <td><span class="stage-badge mainstream">Mainstream</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="domain-dot tech"></span>Tech</td>
+                        <td class="shift-name">The anti-phone movement is growing</td>
+                        <td><span class="stage-badge emerging">Emerging</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    Signals & Shifts 2026 &middot; A <a href="https://culturalcapitallabs.com" target="_blank" rel="noopener">Cultural Capital Labs</a> project
+                </div>
+                <div class="footer-right">
+                    <a href="/">Current snapshot</a>
+                    <a href="./">All archives</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Embedded data for future diffing -->
+    <script type="application/json" id="snapshot-data">
+    {
+        "month": "march-2026",
+        "date": "2026-03-04",
+        "edition": 1,
+        "totalShifts": 20,
+        "summary": "The taste vs. volume split deepens",
+        "shifts": [
+            { "id": "ai-music-flooding", "domain": "music", "title": "AI-generated music flooding the catalogue", "stage": "accelerating", "stageIndex": 2 },
+            { "id": "vinyl-resurgence", "domain": "music", "title": "Vinyl's long resurgence refuses to peak", "stage": "mainstream", "stageIndex": 3 },
+            { "id": "album-cycle-dead", "domain": "music", "title": "The album cycle is dead", "stage": "accelerating", "stageIndex": 2 },
+            { "id": "hyperpop-mainstream", "domain": "music", "title": "Hyperpop bleeding into the mainstream", "stage": "peaking", "stageIndex": 4 },
+            { "id": "ai-democratising-design", "domain": "design", "title": "AI tools are democratising design -- and devaluing it", "stage": "accelerating", "stageIndex": 2 },
+            { "id": "web-brutalism-peaked", "domain": "design", "title": "Web brutalism has peaked", "stage": "peaking", "stageIndex": 4 },
+            { "id": "skeuomorphism-comeback", "domain": "design", "title": "Skeuomorphism is making a quiet comeback", "stage": "emerging", "stageIndex": 1 },
+            { "id": "sustainable-materials", "domain": "design", "title": "Sustainable materials reshaping product design", "stage": "accelerating", "stageIndex": 2 },
+            { "id": "upf-backlash", "domain": "food", "title": "The ultra-processed food backlash goes mainstream", "stage": "accelerating", "stageIndex": 2 },
+            { "id": "japanese-food-global", "domain": "food", "title": "Japanese food culture has gone fully global", "stage": "mainstream", "stageIndex": 3 },
+            { "id": "ghost-kitchens-fading", "domain": "food", "title": "Ghost kitchens are fading", "stage": "declining", "stageIndex": 5 },
+            { "id": "natural-wine-saturation", "domain": "food", "title": "Natural wine has hit saturation", "stage": "peaking", "stageIndex": 4 },
+            { "id": "quiet-luxury-plateauing", "domain": "fashion", "title": "Quiet luxury is plateauing", "stage": "peaking", "stageIndex": 4 },
+            { "id": "gorpcore-peaked", "domain": "fashion", "title": "Gorpcore has peaked", "stage": "peaking", "stageIndex": 4 },
+            { "id": "indie-brands-winning", "domain": "fashion", "title": "Indie brands are eating luxury's lunch", "stage": "accelerating", "stageIndex": 2 },
+            { "id": "resale-rental-normalising", "domain": "fashion", "title": "Resale and rental are normalising", "stage": "mainstream", "stageIndex": 3 },
+            { "id": "ai-agents-replacing-apps", "domain": "tech", "title": "AI agents are replacing apps", "stage": "accelerating", "stageIndex": 2 },
+            { "id": "spatial-computing-stalling", "domain": "tech", "title": "Spatial computing is stalling", "stage": "emerging", "stageIndex": 1 },
+            { "id": "privacy-premium", "domain": "tech", "title": "Privacy is becoming a premium feature", "stage": "mainstream", "stageIndex": 3 },
+            { "id": "anti-phone-movement", "domain": "tech", "title": "The anti-phone movement is growing", "stage": "emerging", "stageIndex": 1 }
+        ],
+        "stageBreakdown": {
+            "emerging": 4,
+            "accelerating": 7,
+            "mainstream": 4,
+            "peaking": 4,
+            "declining": 1
+        }
+    }
+    </script>
+
+</body>
+</html>

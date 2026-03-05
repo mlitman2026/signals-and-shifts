@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive -- Signals & Shifts</title>
+    <meta name="description" content="Monthly archive of cultural shift tracking across music, design, food, fashion and tech.">
+    <meta property="og:title" content="Archive -- Signals & Shifts">
+    <meta property="og:description" content="Monthly archive of cultural shift tracking. Every snapshot preserved.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script defer data-domain="signalsnshifts.com" src="https://plausible.io/js/script.js"></script>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #FAFAF8;
+            --bg-card: #FFFFFF;
+            --bg-hero: #F5F4F0;
+            --border: #E5E4E0;
+            --border-light: #EDEDEB;
+            --text-primary: #1A1A1A;
+            --text-secondary: #555555;
+            --text-muted: #999999;
+            --accent: #C8102E;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .header {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-logo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .header-logo span { color: var(--accent); }
+
+        .header-links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .header-links a {
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .header-links a:hover { color: var(--text-primary); }
+
+        .page-hero {
+            background: var(--bg-hero);
+            border-bottom: 1px solid var(--border);
+            padding: 64px 0 56px;
+        }
+
+        .page-hero h1 {
+            font-family: 'Instrument Serif', serif;
+            font-size: clamp(32px, 4vw, 48px);
+            font-weight: 400;
+            line-height: 1.2;
+            color: var(--text-primary);
+            margin-bottom: 16px;
+        }
+
+        .page-hero p {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            line-height: 1.65;
+            color: var(--text-secondary);
+            max-width: 560px;
+        }
+
+        .archive-list {
+            padding: 48px 0;
+        }
+
+        .archive-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 32px;
+            margin-bottom: 20px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            display: block;
+            color: inherit;
+        }
+
+        .archive-card:hover {
+            border-color: #CCC;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+        }
+
+        .archive-card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .archive-date {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+        }
+
+        .archive-badge {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 3px 10px;
+            border-radius: 3px;
+            background: #ECFDF5;
+            color: #059669;
+        }
+
+        .archive-title {
+            font-family: 'Instrument Serif', serif;
+            font-size: 24px;
+            font-weight: 400;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .archive-summary {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .archive-stats {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .archive-stat {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            letter-spacing: 0.5px;
+            padding: 4px 10px;
+            border-radius: 3px;
+            background: var(--bg);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-light);
+        }
+
+        .archive-stat strong {
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .footer {
+            padding: 24px 0;
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .footer-left {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .footer-left a {
+            color: var(--text-muted);
+            text-decoration: none;
+        }
+
+        .footer-left a:hover { color: var(--text-primary); }
+
+        @media (max-width: 600px) {
+            .page-hero { padding: 36px 0 32px; }
+            .archive-card { padding: 20px; }
+            .header-links { display: none; }
+            .archive-stats { flex-direction: column; gap: 8px; }
+            .footer-inner { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-brand">
+                    <a href="/" class="header-logo">Signals <span>&</span> Shifts</a>
+                </div>
+                <div class="header-links">
+                    <a href="/">Current</a>
+                    <a href="https://culturalcapitallabs.com" target="_blank" rel="noopener">CCL</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Archive</h1>
+            <p>Every monthly snapshot preserved. Watch how cultural shifts move through their lifecycle over time.</p>
+        </div>
+    </section>
+
+    <section class="archive-list">
+        <div class="container">
+
+            <a href="march-2026.html" class="archive-card">
+                <div class="archive-card-top">
+                    <span class="archive-date">March 2026</span>
+                    <span class="archive-badge">Current</span>
+                </div>
+                <h2 class="archive-title">The taste vs. volume split deepens</h2>
+                <p class="archive-summary">AI floods music catalogues and design tools while consumers push back on processed food and constant connectivity. Fashion's dominant aesthetics plateau. The creator economy cleaves in two.</p>
+                <div class="archive-stats">
+                    <span class="archive-stat"><strong>20</strong> shifts tracked</span>
+                    <span class="archive-stat"><strong>4</strong> emerging</span>
+                    <span class="archive-stat"><strong>7</strong> accelerating</span>
+                    <span class="archive-stat"><strong>4</strong> mainstream</span>
+                    <span class="archive-stat"><strong>4</strong> peaking</span>
+                    <span class="archive-stat"><strong>1</strong> declining</span>
+                </div>
+            </a>
+
+            <div class="archive-card" style="opacity: 0.5; cursor: default;">
+                <div class="archive-card-top">
+                    <span class="archive-date">April 2026</span>
+                </div>
+                <h2 class="archive-title" style="color: var(--text-muted);">Coming soon</h2>
+                <p class="archive-summary">The next snapshot will track how March's shifts have moved. Which signals accelerated? Which peaked? Check back in April.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    Signals & Shifts 2026 &middot; A <a href="https://culturalcapitallabs.com" target="_blank" rel="noopener">Cultural Capital Labs</a> project
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
