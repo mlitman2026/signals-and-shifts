@@ -3,7 +3,7 @@
     "edition": "March 2026",
     "totalSignals": 40,
     "domains": 5,
-    "lastUpdated": "2026-03-01",
+    "lastUpdated": "2026-03-05",
     "version": 1
   },
   "signals": [
@@ -14,11 +14,21 @@
       "stage": "accelerating",
       "description": "Major labels are filing copyright claims as AI tools like Suno and Udio generate millions of tracks. Spotify has removed tens of thousands of AI-generated songs, but the volume keeps growing. The legal framework is years behind the technology.",
       "analysis": "AI music creation tools have reached a tipping point where output quality meets distribution scale. The tension between copyright enforcement and creative democratisation will define the next era of music.",
-      "evidence": ["AI music copyright disputes", "Spotify's AI policy"],
-      "connections": ["tech", "design"],
+      "evidence": [
+        "AI music copyright disputes",
+        "Spotify's AI policy"
+      ],
+      "connections": [
+        "tech",
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -28,11 +38,21 @@
       "stage": "mainstream",
       "description": "Vinyl sales have outpaced CDs for the fourth consecutive year. What started as collector nostalgia has become a mainstream retail category -- Urban Outfitters, Amazon, and supermarkets all carry vinyl now. The format has crossed from niche to normalised.",
       "analysis": "Physical media desire is deeply cultural, not just audiophile-driven. Vinyl represents a countermovement to the ephemerality of streaming.",
-      "evidence": ["RIAA vinyl sales data", "Retail expansion"],
-      "connections": ["fashion", "design"],
+      "evidence": [
+        "RIAA vinyl sales data",
+        "Retail expansion"
+      ],
+      "connections": [
+        "fashion",
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "mainstream", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "mainstream",
+          "note": "New"
+        }
       ]
     },
     {
@@ -42,11 +62,20 @@
       "stage": "accelerating",
       "description": "Artists are releasing singles, loosies, and surprise drops instead of albums. The traditional album cycle has collapsed. Even legacy artists are abandoning it. Music consumption is now a stream, not a series of events.",
       "analysis": "Streaming economics and social media attention spans have fundamentally restructured how music is released. The album as cultural event is being replaced by continuous output.",
-      "evidence": ["Streaming release data", "Artist strategy shifts"],
-      "connections": ["tech"],
+      "evidence": [
+        "Streaming release data",
+        "Artist strategy shifts"
+      ],
+      "connections": [
+        "tech"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -56,11 +85,20 @@
       "stage": "peaking",
       "description": "What was a niche SoundCloud subculture has infiltrated pop production. Charli xcx's Brat normalised the aesthetic. Major-label pop records now routinely use distortion, pitched vocals, and glitchy production. The underground sound has been fully absorbed.",
       "analysis": "Hyperpop followed the classic trajectory: underground innovation absorbed by mainstream until it loses its edge. The next sonic shift is already forming in reaction.",
-      "evidence": ["Brat's cultural impact", "Pop production trends"],
-      "connections": ["fashion"],
+      "evidence": [
+        "Brat's cultural impact",
+        "Pop production trends"
+      ],
+      "connections": [
+        "fashion"
+      ],
       "momentum": "steady",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "peaking", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "peaking",
+          "note": "New"
+        }
       ]
     },
     {
@@ -70,11 +108,20 @@
       "stage": "accelerating",
       "description": "Spotify's AI DJ and Apple Music's personalised mixes are shifting discovery away from human-curated playlists. The editorial playlist as cultural gatekeeper is fading. When algorithms know your taste better than any editor, the role of the tastemaker changes fundamentally.",
       "analysis": "The displacement of human curation by AI in music mirrors similar shifts across design and content. The question is whether algorithmic curation creates filter bubbles or genuine discovery.",
-      "evidence": ["AI DJ adoption rates", "Playlist curation data"],
-      "connections": ["tech"],
+      "evidence": [
+        "AI DJ adoption rates",
+        "Playlist curation data"
+      ],
+      "connections": [
+        "tech"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -84,11 +131,20 @@
       "stage": "emerging",
       "description": "Monthly vinyl drops from services like Vinyl Me, Please and VNYL are turning record collecting into a subscription habit. The model combines curation, discovery, and physical media in a format that streaming can't replicate. It's the book-of-the-month club for music.",
       "analysis": "Subscription curation applied to physical media creates recurring revenue around taste and discovery. This model could expand to other physical media categories.",
-      "evidence": ["Vinyl subscription growth", "Physical media trends"],
-      "connections": ["fashion"],
+      "evidence": [
+        "Vinyl subscription growth",
+        "Physical media trends"
+      ],
+      "connections": [
+        "fashion"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -98,11 +154,21 @@
       "stage": "mainstream",
       "description": "Taylor Swift's Eras Tour normalised four-figure ticket prices. Dynamic pricing and VIP packages have turned live music into a luxury good. The average concert ticket price has doubled since 2019. Live music is splitting into accessible and aspirational tiers.",
       "analysis": "The stratification of live music mirrors broader luxury market dynamics. Experience economy meets wealth inequality, creating a two-tier market.",
-      "evidence": ["Live music pricing data", "Dynamic pricing impact"],
-      "connections": ["fashion", "tech"],
+      "evidence": [
+        "Live music pricing data",
+        "Dynamic pricing impact"
+      ],
+      "connections": [
+        "fashion",
+        "tech"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "mainstream", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "mainstream",
+          "note": "New"
+        }
       ]
     },
     {
@@ -112,11 +178,21 @@
       "stage": "accelerating",
       "description": "Lo-fi beats, brown noise, and ambient soundscapes have become the default work soundtrack. Streaming platforms now have dedicated focus modes. Brian Eno's vision of music as environment has gone mainstream -- not through art galleries, but through Notion users needing background texture.",
       "analysis": "Music's primary function is shifting from entertainment to environment. This has profound implications for what gets made and how it's valued.",
-      "evidence": ["Focus music streaming data", "Productivity culture"],
-      "connections": ["tech", "design"],
+      "evidence": [
+        "Focus music streaming data",
+        "Productivity culture"
+      ],
+      "connections": [
+        "tech",
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -126,11 +202,21 @@
       "stage": "accelerating",
       "description": "Midjourney, DALL-E, and Figma AI mean anyone can produce competent visual work. The floor has risen dramatically -- mediocre design is now free. But this makes taste and creative direction more valuable, not less.",
       "analysis": "AI design tools compress the skill curve but elevate the taste curve. The gap between good-enough and great-with-purpose widens, making creative direction the scarce skill.",
-      "evidence": ["AI design tool adoption", "Design salary impact"],
-      "connections": ["music", "tech"],
+      "evidence": [
+        "AI design tool adoption",
+        "Design salary impact"
+      ],
+      "connections": [
+        "music",
+        "tech"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -140,11 +226,20 @@
       "stage": "peaking",
       "description": "The raw, unpolished web aesthetic has saturated. What felt radical in 2021 is now a Squarespace template. The counter-movement is already visible: warm interfaces, organic shapes, and a return to craft. Brutalism did its job -- it broke homogeneity.",
       "analysis": "Brutalism's peak signals the inevitable absorption of rebellion into mainstream. The next aesthetic movement will likely embrace warmth and craft as counter.",
-      "evidence": ["Web design trend analysis", "Template market data"],
-      "connections": ["tech"],
+      "evidence": [
+        "Web design trend analysis",
+        "Template market data"
+      ],
+      "connections": [
+        "tech"
+      ],
       "momentum": "down",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "peaking", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "peaking",
+          "note": "New"
+        }
       ]
     },
     {
@@ -154,11 +249,20 @@
       "stage": "emerging",
       "description": "Apple's visionOS brought textures, shadows, and depth back to interface design. After a decade of flat design, there's growing appetite for interfaces that feel tactile. Glass effects, soft shadows, and material references are appearing everywhere.",
       "analysis": "The return to tactile UI reflects a broader desire for physical connection in digital spaces. Spatial computing will accelerate this shift further.",
-      "evidence": ["visionOS design language", "UI trend reports"],
-      "connections": ["tech"],
+      "evidence": [
+        "visionOS design language",
+        "UI trend reports"
+      ],
+      "connections": [
+        "tech"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -168,11 +272,21 @@
       "stage": "accelerating",
       "description": "Bio-based materials, mycelium leather, and recycled plastics are moving from R&D curiosity to mainstream product lines. Nike, IKEA, and Samsung are embedding sustainable materials as default. The shift is from sustainability as marketing to supply chain reality.",
       "analysis": "Sustainable materials are transitioning from premium option to baseline expectation, driven by regulation and consumer demand alike.",
-      "evidence": ["Sustainable materials data", "Brand commitments"],
-      "connections": ["fashion", "food"],
+      "evidence": [
+        "Sustainable materials data",
+        "Brand commitments"
+      ],
+      "connections": [
+        "fashion",
+        "food"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -182,11 +296,21 @@
       "stage": "mainstream",
       "description": "Looka, Brandmark, and Canva's AI tools mean a passable logo costs nothing and takes minutes. The volume of new businesses using AI logos has exploded. The floor of visual identity has risen, but the ceiling of great branding remains firmly human -- taste, context, and meaning can't be prompted.",
       "analysis": "AI logo tools democratise the visual baseline but increase demand for strategic brand thinking. The value shifts from execution to meaning.",
-      "evidence": ["AI logo tool adoption", "Design industry impact"],
-      "connections": ["tech", "fashion"],
+      "evidence": [
+        "AI logo tool adoption",
+        "Design industry impact"
+      ],
+      "connections": [
+        "tech",
+        "fashion"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "mainstream", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "mainstream",
+          "note": "New"
+        }
       ]
     },
     {
@@ -196,11 +320,21 @@
       "stage": "emerging",
       "description": "Chrome surfaces, iridescent gradients, and early-internet aesthetics are reappearing in fashion campaigns, album art, and web design. This isn't pure nostalgia -- it's Y2K optimism filtered through current AI anxiety. The aesthetic says: the future was supposed to be fun.",
       "analysis": "Nostalgia-driven aesthetics serve as emotional counterweight to present uncertainty. Y2K revival reflects desire for the optimism of a previous technological moment.",
-      "evidence": ["Y2K aesthetic resurgence", "Design trend analysis"],
-      "connections": ["music", "fashion"],
+      "evidence": [
+        "Y2K aesthetic resurgence",
+        "Design trend analysis"
+      ],
+      "connections": [
+        "music",
+        "fashion"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -210,11 +344,21 @@
       "stage": "emerging",
       "description": "A deliberate rejection of polished aesthetics is emerging as a counter to AI-generated perfection. Clashing fonts, garish colours, and broken layouts are being used intentionally by brands like Balenciaga and musicians like Yeat. When everything looks perfect, imperfection becomes the flex.",
       "analysis": "Anti-design is a predictable reaction to AI-generated homogeneity. Its value is as a signal of intentionality and human expression.",
-      "evidence": ["Anti-design in branding", "Post-AI aesthetic"],
-      "connections": ["fashion", "music"],
+      "evidence": [
+        "Anti-design in branding",
+        "Post-AI aesthetic"
+      ],
+      "connections": [
+        "fashion",
+        "music"
+      ],
       "momentum": "steady",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -224,11 +368,22 @@
       "stage": "accelerating",
       "description": "Phygital is no longer a buzzword -- it's becoming standard. Nike's .SWOOSH connects physical shoes to digital twins. Restaurants use QR menus that remember your preferences. The line between physical and digital experience design is dissolving, not because technology demands it, but because consumers expect it.",
       "analysis": "The convergence of physical and digital is moving from novelty to infrastructure. Brands that fail to bridge both worlds will feel increasingly dated.",
-      "evidence": ["Phygital retail data", "Brand experience trends"],
-      "connections": ["fashion", "food", "tech"],
+      "evidence": [
+        "Phygital retail data",
+        "Brand experience trends"
+      ],
+      "connections": [
+        "fashion",
+        "food",
+        "tech"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -238,11 +393,20 @@
       "stage": "accelerating",
       "description": "UPF awareness has moved from niche nutrition circles to mainstream media and policy. Books like Ultra-Processed People became bestsellers. Supermarkets are adding UPF labels. Expect advertising restrictions on UPF products within two years.",
       "analysis": "The UPF movement has reached the tipping point where consumer awareness drives regulatory action. This will reshape food branding and advertising.",
-      "evidence": ["UPF policy developments", "Consumer awareness"],
-      "connections": ["tech"],
+      "evidence": [
+        "UPF policy developments",
+        "Consumer awareness"
+      ],
+      "connections": [
+        "tech"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -252,11 +416,21 @@
       "stage": "mainstream",
       "description": "Omakase counters, onigiri shops, and Japanese convenience store aesthetics are everywhere. The appeal runs deeper than food -- it's precision, focus on one thing done perfectly, the entire philosophy of craft. Japanese food culture has become the reference point for quality.",
       "analysis": "Japanese food culture represents a broader fascination with craft and intentionality. Its influence extends well beyond cuisine into design and philosophy.",
-      "evidence": ["Japanese restaurant openings", "Global food trend data"],
-      "connections": ["design", "fashion"],
+      "evidence": [
+        "Japanese restaurant openings",
+        "Global food trend data"
+      ],
+      "connections": [
+        "design",
+        "fashion"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "mainstream", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "mainstream",
+          "note": "New"
+        }
       ]
     },
     {
@@ -266,11 +440,20 @@
       "stage": "declining",
       "description": "The pandemic-era boom in delivery-only restaurants is reversing. Consumers want atmosphere, not just food. Major ghost kitchen operators have closed locations or pivoted. The standalone ghost kitchen is proving unsustainable without lockdowns.",
       "analysis": "Ghost kitchens revealed that food without experience is commoditised. The return to physical dining reinforces experience as value.",
-      "evidence": ["Ghost kitchen closures", "Delivery market data"],
-      "connections": ["tech"],
+      "evidence": [
+        "Ghost kitchen closures",
+        "Delivery market data"
+      ],
+      "connections": [
+        "tech"
+      ],
       "momentum": "down",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "declining", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "declining",
+          "note": "New"
+        }
       ]
     },
     {
@@ -280,11 +463,20 @@
       "stage": "peaking",
       "description": "Every restaurant in Zone 1-2 London has a natural wine list. What was a genuine counter-cultural movement has become the default. The signifiers -- orange wine, pet-nat, hand-drawn labels -- are now mainstream hospitality aesthetics. A quiet return to classics is forming.",
       "analysis": "Natural wine's saturation demonstrates how counterculture becomes convention. The next move is towards quality conventionalism rather than another rebellion.",
-      "evidence": ["Natural wine market", "Wine list analysis"],
-      "connections": ["design"],
+      "evidence": [
+        "Natural wine market",
+        "Wine list analysis"
+      ],
+      "connections": [
+        "design"
+      ],
       "momentum": "steady",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "peaking", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "peaking",
+          "note": "New"
+        }
       ]
     },
     {
@@ -294,11 +486,21 @@
       "stage": "mainstream",
       "description": "What started as awareness is becoming regulation. The UK is piloting UPF warning labels. School lunch programmes are cutting ultra-processed ingredients. Food brands are reformulating to avoid the UPF label. This shift has moved from media narrative to institutional action -- the point where it becomes irreversible.",
       "analysis": "Policy-level action on UPF marks the transition from cultural movement to structural change. Brands that don't adapt will face regulatory pressure.",
-      "evidence": ["UK UPF policy proposals", "Brand reformulation"],
-      "connections": ["design", "tech"],
+      "evidence": [
+        "UK UPF policy proposals",
+        "Brand reformulation"
+      ],
+      "connections": [
+        "design",
+        "tech"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "mainstream", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "mainstream",
+          "note": "New"
+        }
       ]
     },
     {
@@ -308,11 +510,20 @@
       "stage": "emerging",
       "description": "Beyond farm-to-table, a new wave of restaurants and food producers are drawing hyper-local boundaries. The 10-mile menu is emerging as a genuine constraint that drives creativity. It's provenance pushed to its logical extreme -- not just knowing the farm, but knowing the field.",
       "analysis": "Hyper-local sourcing takes provenance to its maximum expression. The constraint becomes a creative and marketing advantage.",
-      "evidence": ["Hyper-local restaurants", "Supply chain trends"],
-      "connections": ["design"],
+      "evidence": [
+        "Hyper-local restaurants",
+        "Supply chain trends"
+      ],
+      "connections": [
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -322,11 +533,21 @@
       "stage": "accelerating",
       "description": "The chef-decides, multi-course format pioneered by Japanese restaurants is being adopted by Italian, Mexican, and Indian fine dining. It signals trust in the chef's vision over customer control. The omakase model is really about curation -- letting expertise decide, not the menu.",
       "analysis": "The omakase model is fundamentally about curation and trust. Its spread beyond Japanese cuisine signals a broader cultural comfort with expert-led experiences.",
-      "evidence": ["Omakase restaurant growth", "Fine dining format shifts"],
-      "connections": ["design", "fashion"],
+      "evidence": [
+        "Omakase restaurant growth",
+        "Fine dining format shifts"
+      ],
+      "connections": [
+        "design",
+        "fashion"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -336,11 +557,20 @@
       "stage": "emerging",
       "description": "Kombucha kits, sourdough starters, and kimchi workshops have turned fermentation into a mainstream hobby. It's the intersection of wellness, craft, and slow living. The appeal is control -- knowing exactly what's in your food, and the patience required to make it. Counter-UPF in action.",
       "analysis": "Fermentation as hobby embodies the broader slow-living, anti-processed movements. It's craft meets wellness meets counter-consumerism.",
-      "evidence": ["Home fermentation sales", "Wellness hobby trends"],
-      "connections": ["design"],
+      "evidence": [
+        "Home fermentation sales",
+        "Wellness hobby trends"
+      ],
+      "connections": [
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -350,11 +580,20 @@
       "stage": "peaking",
       "description": "The Succession-coded, stealth-wealth aesthetic dominated 2023-2024 but the energy is dissipating. Bold colour, pattern, and visible identity are returning. Quiet luxury isn't dying -- it's settling into a permanent lane rather than the defining mood.",
       "analysis": "Quiet luxury's plateau signals the natural lifecycle of aesthetic movements. Its influence will persist as a segment but lose its status as default aspiration.",
-      "evidence": ["Luxury market trends", "Search data shifts"],
-      "connections": ["design"],
+      "evidence": [
+        "Luxury market trends",
+        "Search data shifts"
+      ],
+      "connections": [
+        "design"
+      ],
       "momentum": "down",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "peaking", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "peaking",
+          "note": "New"
+        }
       ]
     },
     {
@@ -364,11 +603,20 @@
       "stage": "peaking",
       "description": "Arc'teryx, Salomon, and The North Face became urban uniforms. The outdoor-technical aesthetic is so widespread it's lost its subcultural edge. When every creative agency in Shoreditch wears the same Gore-Tex jacket, the signal is fully absorbed. Tailoring is the counter-move.",
       "analysis": "Gorpcore's peak marks the moment when functional fashion becomes costume. The counter-movement towards tailoring and formality is already visible.",
-      "evidence": ["Outdoor brand sales", "Fashion cycle analysis"],
-      "connections": ["design"],
+      "evidence": [
+        "Outdoor brand sales",
+        "Fashion cycle analysis"
+      ],
+      "connections": [
+        "design"
+      ],
       "momentum": "down",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "peaking", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "peaking",
+          "note": "New"
+        }
       ]
     },
     {
@@ -378,11 +626,21 @@
       "stage": "accelerating",
       "description": "Brands like Flowers for Society, Aime Leon Dore, and Corteiz are winning cultural relevance over legacy luxury houses. Having a genuine point of view matters more than heritage or distribution. Young consumers prefer 10,000 followers and a real story.",
       "analysis": "The indie brand insurgency reflects a shift from heritage to authenticity as the primary driver of brand desire. Cultural relevance beats distribution scale.",
-      "evidence": ["Indie brand growth", "Luxury market share"],
-      "connections": ["music", "design"],
+      "evidence": [
+        "Indie brand growth",
+        "Luxury market share"
+      ],
+      "connections": [
+        "music",
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -392,11 +650,21 @@
       "stage": "mainstream",
       "description": "Vinted, Depop, and Vestiaire Collective have made secondhand the default starting point. The stigma is gone. Luxury resale is projected to outpace primary luxury growth by 2028. Buying new is increasingly something you justify, not default to.",
       "analysis": "Resale normalisation fundamentally changes the fashion value chain. Primary market brands must account for aftermarket value in pricing and design.",
-      "evidence": ["Secondhand market data", "Consumer behaviour"],
-      "connections": ["design", "tech"],
+      "evidence": [
+        "Secondhand market data",
+        "Consumer behaviour"
+      ],
+      "connections": [
+        "design",
+        "tech"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "mainstream", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "mainstream",
+          "note": "New"
+        }
       ]
     },
     {
@@ -406,11 +674,21 @@
       "stage": "emerging",
       "description": "Patagonia's Worn Wear programme was early. Now visible mending -- Sashiko stitching, patches, darning -- is becoming a fashion statement. The signal: showing you've repaired something is more interesting than showing you bought something new. Sustainability as visible craft, not hidden compromise.",
       "analysis": "Visible repair inverts traditional status signalling. Wearing visibly-mended clothes becomes a statement of values and craft appreciation.",
-      "evidence": ["Repair culture movement", "Visible mending trends"],
-      "connections": ["design", "food"],
+      "evidence": [
+        "Repair culture movement",
+        "Visible mending trends"
+      ],
+      "connections": [
+        "design",
+        "food"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -420,11 +698,20 @@
       "stage": "mainstream",
       "description": "Unisex lines are no longer press release moments -- they're becoming the baseline. Zara, COS, and H&M have quiet-launched gender-neutral ranges without fanfare. The shift from 'we have a genderless capsule' to 'our main line is for everyone' signals real cultural integration, not performative inclusion.",
       "analysis": "Gender-fluid fashion moving from statement to default represents genuine cultural integration rather than marketing positioning.",
-      "evidence": ["Gender-neutral fashion data", "Retail category shifts"],
-      "connections": ["design"],
+      "evidence": [
+        "Gender-neutral fashion data",
+        "Retail category shifts"
+      ],
+      "connections": [
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "mainstream", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "mainstream",
+          "note": "New"
+        }
       ]
     },
     {
@@ -434,11 +721,21 @@
       "stage": "emerging",
       "description": "Stitch Fix pioneered algorithm-driven styling, but a new wave of AI tools lets consumers style themselves. Upload your wardrobe, describe an occasion, get outfit combinations. The personal stylist was once a luxury service -- now it's an app. The question: does algorithmic taste develop or flatten personal style?",
       "analysis": "AI styling tools democratise fashion guidance but risk creating algorithmic conformity. The tension between personalisation and homogenisation is key.",
-      "evidence": ["AI styling app growth", "Personal style AI"],
-      "connections": ["tech", "design"],
+      "evidence": [
+        "AI styling app growth",
+        "Personal style AI"
+      ],
+      "connections": [
+        "tech",
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -448,11 +745,21 @@
       "stage": "accelerating",
       "description": "Vintage Helmut Lang, Margiela, and Raf Simons pieces are selling at auction-house prices. Archive fashion has moved from collector hobby to investment thesis. Christie's and Sotheby's now run dedicated fashion sales. The implication: the best fashion is already made -- the future is in the past.",
       "analysis": "Archive fashion as investment class elevates fashion to the status of art or collectibles. It suggests a crisis of confidence in contemporary design.",
-      "evidence": ["Archive fashion auctions", "Vintage market data"],
-      "connections": ["music", "design"],
+      "evidence": [
+        "Archive fashion auctions",
+        "Vintage market data"
+      ],
+      "connections": [
+        "music",
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -462,11 +769,21 @@
       "stage": "accelerating",
       "description": "The interface layer is dissolving. Instead of opening apps, AI agents handle interactions -- booking, managing calendars, customer service. If a customer never opens your app because an agent handles it, where does brand experience live?",
       "analysis": "Agent-mediated interactions represent the biggest shift in brand-consumer relationships since mobile. Brands must design for agents, not just humans.",
-      "evidence": ["AI agent development", "App usage decline"],
-      "connections": ["music", "design"],
+      "evidence": [
+        "AI agent development",
+        "App usage decline"
+      ],
+      "connections": [
+        "music",
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -476,11 +793,20 @@
       "stage": "emerging",
       "description": "Apple Vision Pro launched to technological acclaim and commercial indifference. Spatial computing will matter eventually, but the current generation is a developer preview disguised as a consumer product. The real inflection point is 3-5 years away.",
       "analysis": "Spatial computing is in the classic 'right technology, wrong timing' phase. The infrastructure and content ecosystem need time to develop.",
-      "evidence": ["Vision Pro sales data", "Spatial computing adoption"],
-      "connections": ["design"],
+      "evidence": [
+        "Vision Pro sales data",
+        "Spatial computing adoption"
+      ],
+      "connections": [
+        "design"
+      ],
       "momentum": "steady",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -490,11 +816,18 @@
       "stage": "mainstream",
       "description": "Apple built an entire brand position around privacy. Now it's spreading: paid email services, VPNs, ad-free subscriptions. Consumers are increasingly willing to pay to not be the product. Privacy is the new organic -- a willingness-to-pay signal.",
       "analysis": "Privacy as premium positioning creates a new market segment and reframes the relationship between data, value, and consumer choice.",
-      "evidence": ["Privacy product growth", "Consumer surveys"],
+      "evidence": [
+        "Privacy product growth",
+        "Consumer surveys"
+      ],
       "connections": [],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "mainstream", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "mainstream",
+          "note": "New"
+        }
       ]
     },
     {
@@ -504,11 +837,20 @@
       "stage": "emerging",
       "description": "Light Phone, dumbphone TikTok trends, screen time anxiety, and a growing cultural rejection of constant connectivity. Schools are banning phones. Restaurants offer phone-free dining. The backlash is about attention as a scarce resource.",
       "analysis": "The anti-phone movement represents a cultural reckoning with smartphone dependency. It will likely bifurcate into luxury disconnection and mainstream reduction.",
-      "evidence": ["Dumbphone sales growth", "School phone bans"],
-      "connections": ["food"],
+      "evidence": [
+        "Dumbphone sales growth",
+        "School phone bans"
+      ],
+      "connections": [
+        "food"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -518,11 +860,21 @@
       "stage": "accelerating",
       "description": "Beyond chatbots, AI agents are now booking flights, managing inboxes, and writing code with minimal human input. Claude, GPT, and Gemini are shipping agent capabilities. The shift from 'AI as assistant' to 'AI as autonomous operator' is happening faster than enterprise software can adapt.",
       "analysis": "Autonomous AI agents represent a phase change in automation. The implications for work, productivity, and professional identity are still unfolding.",
-      "evidence": ["AI agent capabilities", "Enterprise AI adoption"],
-      "connections": ["music", "design"],
+      "evidence": [
+        "AI agent capabilities",
+        "Enterprise AI adoption"
+      ],
+      "connections": [
+        "music",
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -532,11 +884,20 @@
       "stage": "accelerating",
       "description": "Proton Mail, Signal, Mullvad VPN -- a new category of products charges more for the privilege of not being surveilled. Privacy is becoming a luxury positioning, not just a feature toggle. The premium signals both values and affluence -- the new organic label for digital life.",
       "analysis": "Privacy-premium products create a distinct market position at the intersection of values and status. They signal a fundamental shift in how digital services are valued.",
-      "evidence": ["Privacy product revenue", "Consumer privacy spending"],
-      "connections": ["fashion"],
+      "evidence": [
+        "Privacy product revenue",
+        "Consumer privacy spending"
+      ],
+      "connections": [
+        "fashion"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "accelerating", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "accelerating",
+          "note": "New"
+        }
       ]
     },
     {
@@ -546,11 +907,21 @@
       "stage": "emerging",
       "description": "Hotels and resorts are launching phone-free programmes as premium offerings. No WiFi is a feature, not a bug. Aman, Six Senses, and boutique operators are building digital-detox into their brand positioning. Disconnection is becoming the ultimate luxury experience.",
       "analysis": "Digital detox as luxury travel signals that disconnection has become aspirational. The ability to be offline is itself a privilege.",
-      "evidence": ["Digital detox travel", "Luxury wellness trends"],
-      "connections": ["food", "fashion"],
+      "evidence": [
+        "Digital detox travel",
+        "Luxury wellness trends"
+      ],
+      "connections": [
+        "food",
+        "fashion"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     },
     {
@@ -560,11 +931,20 @@
       "stage": "emerging",
       "description": "A growing movement of developers and users are rejecting cloud-dependency. Tools like Obsidian, Linear, and Replit work offline first, syncing when connected. The appeal: your data lives on your device, not someone else's server. It's the privacy movement applied to productivity.",
       "analysis": "Local-first software challenges the cloud-centric paradigm that has dominated for a decade. It reframes data ownership as a product feature.",
-      "evidence": ["Local-first movement", "Offline-first adoption"],
-      "connections": ["design"],
+      "evidence": [
+        "Local-first movement",
+        "Offline-first adoption"
+      ],
+      "connections": [
+        "design"
+      ],
       "momentum": "up",
       "stageHistory": [
-        { "date": "2026-03-01", "stage": "emerging", "note": "New" }
+        {
+          "date": "2026-03-01",
+          "stage": "emerging",
+          "note": "New"
+        }
       ]
     }
   ]
